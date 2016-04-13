@@ -4,11 +4,11 @@
 */
 
 function createFunction() {
-	var a = function() {
-		var a = "b";
+	var a = function() { //2
+		var a = "b"; //3
 		return a;
 	};
 	return a;
 }
-var a = createFunction();
+var a = createFunction(); //1
 console.log(a());
