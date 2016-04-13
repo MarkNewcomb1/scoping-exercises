@@ -1,6 +1,6 @@
 /*
 	Exercise 1
-	The following code should pring "Homer", "Barney", "Marge"
+	The following code should print "Homer", "Barney", "Marge"
 	How should we fix this?
 */
 function createCharacter(width, height, color, name) {
